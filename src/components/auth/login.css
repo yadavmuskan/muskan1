@@ -1,0 +1,218 @@
+/* Normal css for adjustments  */
+.login_container {
+  background-image: url('../assests/images/sunfury.jpg');
+  /* background-image: url('../assests/images/background1.svg'); */
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_login_container {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.494);
+  display: flex;
+  height: auto;
+  width: 560px;
+  max-width: 560px;
+}
+.login_inside_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.second_container_login {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  /* background-color: rgb(124, 124, 124); */
+}
+.logo_handle {
+  margin: 0px;
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+.logo_style {
+  margin-top: 16px;
+  cursor: pointer;
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.arrange_inputs {
+  width: 100%;
+  /* margin-top: 40px; */
+  /* background-color: aqua; */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label_control_input {
+  max-width: 280px;
+  font-weight: 450;
+  font-size: smaller;
+  color: rgb(255, 255, 255);
+  margin-top: 10px !important;
+  width: 90%;
+  margin: auto;
+}
+.login_input {
+  max-width: 280px;
+  font-weight: 500;
+  font-size: smaller;
+  background-color: rgba(255, 255, 255, 0.371);
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 123, 255, 0.405);
+  height: 35px;
+  width: 90%;
+  margin: auto;
+  padding-left: 6px;
+  min-width: 200px;
+}
+.login_forget {
+  max-width: 280px;
+  cursor: pointer;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: 450;
+  font-size: smaller;
+  color: white;
+}
+
+.login_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 280px;
+  margin-top: 10% !important;
+  height: 35px;
+  width: 80%;
+  margin: auto;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 123, 255, 0.405);
+  background-color: rgba(0, 123, 255, 0.405);
+  color: rgba(255, 255, 255, 0.624);
+}
+.have_account {
+  font-weight: 500;
+  font-size: smaller;
+  margin-left: 10px;
+}
+
+.Sign_up {
+  font-weight: 450;
+  cursor: pointer;
+  color: white;
+}
+/* Centralized css  */
+.center_form {
+  display: inline-block;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Advance css for some kind of action performed by user  */
+
+/* Input component styling for user input */
+.login_input:focus-visible {
+  outline: none;
+  background-color: white;
+  font-weight: 500;
+  font-size: smaller;
+}
+.login_input:focus-within {
+  outline: none;
+  background-color: white;
+  font-weight: 500;
+  font-size: smaller;
+}
+.login_input::placeholder {
+  color: white;
+  font-weight: 500;
+  font-size: smaller;
+  padding-left: 10px;
+}
+
+/* Error labels control css  */
+.input_error_label {
+  max-width: 280px;
+  color: red;
+  font-weight: 350;
+  font-size: smaller;
+  width: 90%;
+  margin: auto;
+}
+
+/* form the mainlogo of the web  */
+.main_logo {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  min-height: 210px !important;
+  min-width: 210px !important;
+  margin: auto;
+}
+
+/* For form element control  */
+
+input:focus,
+select:focus,
+textarea:focus,
+input:hover:focus,
+select:hover:focus,
+textarea:hover:focus {
+  outline: none;
+  border: 2px solid rgb(0 123 255 / 96%);
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid #ff7d87;
+  box-shadow: none;
+}
+
+.input-feedback {
+  color: red;
+  margin-top: 0.25rem;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.valid input[type='email'],
+.valid input[type='text'],
+.valid input[type='password'],
+.valid input[type='number'] {
+  border-color: green;
+}
+
+.valid .feedback {
+  color: green;
+}
+
+.invalid input[type='email'],
+.invalid input[type='password'],
+.invalid input[type='text'],
+.invalid input[type='number'] {
+  border-color: red;
+}
+
+.invalid .feedback {
+  color: red;
+}
